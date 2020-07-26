@@ -1,3 +1,5 @@
+// Staircase PATTERN forming in C++
+// Copyright (c) MICROHAWK 2020
 #include <iostream>
 using namespace std;
 
