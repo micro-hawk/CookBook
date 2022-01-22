@@ -1,27 +1,19 @@
-#include<iostream>
+// You don't need to add/edit anything to the below solution. 
+// Click on the SUBMIT button to solve your first problem on CodeChef.
+
+#include <iostream>
 using namespace std;
+
 int main() {
-    float withdraw, currentBalance, tax = 0.50;
-    cin >> withdraw >> currentBalance;
-    float amount=0, result=0;
-    bool okay = false;
-    if (!okay)
-    {
-        
+    int w;
+    float ac_bl;
+    cin>>w;
+    cin>>ac_bl;
+    if(w%5==0 && w<=ac_bl-0.5){
+        cout<<((ac_bl-w)-(0.5));
     }
-    
-    
-    if (withdraw <= 2000 && currentBalance <= 2000 && withdraw > 0 && currentBalance > 0)
-    {   
-        if (withdraw <= currentBalance)
-        {
-            amount = currentBalance - (withdraw+tax);
-            cout << amount;
-        }
-        
-    } else {
-        cout << ":bsdk";
+    else{
+        cout<<ac_bl;
     }
-    
-    return 0;
+	return 0;
 }
