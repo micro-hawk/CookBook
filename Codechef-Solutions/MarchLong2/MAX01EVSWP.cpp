@@ -7,7 +7,7 @@ ll main() {
         for (ll i = 0; i < len; i++)
         {
             if(s[i]=='0') count++;
-        } m 
+        } 
         
     }
 }
