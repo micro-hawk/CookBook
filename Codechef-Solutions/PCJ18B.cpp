@@ -1,10 +1,22 @@
-#include<iostream>
+#include <iostream>
+#include<vector>
+#define ll long long 
 using namespace std;
+
 int main() {
-    int t; cin >> t; while (t--)
-    {
-        int n; cin >> n; 
-        cout << "10\n120";
-    }
-    
+	ll t; cin >> t; while(t--) {
+	    vector<ll> v; int n; cin >>  n; 
+	    v.reserve(n);
+	    for (ll i = 0; i<n; i++) {
+	        ll input; cin >> input;
+            v.push_back(input);
+	    }
+
+        for (ll i = 0; i < n; i++)
+        {
+            cout << v[i] << " ";
+        }
+        
+	}
+	return 0;
 }
